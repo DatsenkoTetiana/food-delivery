@@ -1,4 +1,1 @@
-/*# sourceMappingURL=maim.min.css.map */
-body {
-    background-color: red;
-}
+:root{--main-font: "Roboto", sans-serif;--secondary-font: "Kalam", cursive;--main-txt-color: #2C2C2C;--btn-default-bg: #BBF330;--btn-on-click-bg: #B5FF00;--btn-on-click-bg: #FFE550;--btn-default-border: #7EB101;--btn-on-click-border: #597D00}body{font-family:var(--main-font);color:var(--main-txt-color);margin:0}html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*::before,*::after{-webkit-box-sizing:inherit;box-sizing:inherit}h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}ul{list-style-type:none}/*# sourceMappingURL=maim.min.css.map */

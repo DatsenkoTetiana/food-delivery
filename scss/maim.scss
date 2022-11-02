@@ -1,22 +1,24 @@
-// @import './utils/variables';
-// @import './utils/visually-hidden';
-// @import './utils/placeholder';
-// @import './utils/animations';
-// @import './base/base';
-// @import './base/reset';
-// @import './components/buttons';
-// @import './components/modal-mobile';
-// @import './components/modal-form';
-// @import './components/inputs';
-// @import './layout/nav';
-// @import './layout/header';
-// @import './layout/hero';
-// @import './layout/offerings';
-// @import './layout/favorites';
-// @import './layout/customers-say';
-// @import './layout/subscribe';
-// @import './layout/footer';
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/placeholder';
+@import './utils/animations';
+@import './base/base';
+@import './base/reset';
+@import './components/buttons';
+@import './components/modal-mobile';
+@import './components/modal-form';
+@import './components/inputs';
+@import './layout/nav';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/offerings';
+@import './layout/favorites';
+@import './layout/customers-say';
+@import './layout/subscribe';
+@import './layout/footer';
+// $main-color: red;
 
-body {
-    background-color: red;
-}
+// body {
+//     $main-color: black;
+//     background-color: $main-color;
+// }
