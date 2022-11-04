@@ -2,40 +2,188 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/maim.min.css" />
 </head>
 
 <body>
+    <main>
+        <div class="burger__menu">
+            <div class="burger__container">
+                <a href="" class="header__logo">
+                    <svg class="header__icon">
+                        <use href=""></use>
+                    </svg>
+                </a>
+                <button class="burger__btn">
+                    <svg class="burger__icon">
+                        <use href=""></use>
+                    </svg>
+                </button>
+                <nav class="burger__nav">
+                    <ul class="burger-nav__list">
+                        <li class="burger-nav__item">
+                            <a class="burger-nav__link" href="">Home</a>
+                        </li>
+                        <li class="burger-nav__item">
+                            <a class="burger-nav__link" href="">About</a>
+                        </li>
+                        <li class="burger-nav__item">
+                            <a class="burger-nav__link" href="">Service</a>
+                        </li>
+                        <li class="burger-nav__item">
+                            <a class="burger-nav__link" href="">Menu</a>
+                        </li>
+                        <li class="burger-nav__item">
+                            <a class="burger-nav__link" href="">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <section class="hero">
+            <div class="hero__container">
 
-    <div class="burger__menu">
-        <div class="burger__container">
-            <button class="burger__btn">
-                <svg class="burger__icon">
+                <h1 class="hero__title">Enjoy Your Favorite Food From Anywhere</h1>
+                <p class="hero__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    varius enim in eros elementum tristique. Duis cursus, mi quis
+                    viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                    vitae erat.
+                </p>
+                <button class="hero__button" type="button">Order Now</button>
+            </div>
+        </section>
+        <section class="offerings">
+            <div class="offerings__container">
+                <ul class="offerings__list">
+                    <li class="offerings__item">
+                        <img src="" alt="" class="offerings__img" />
+                        <h2 class="offerings__title">
+                            What’s Special About Our Offerings
+                        </h2>
+                        <p class="offerings__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse varius enim in eros elementum tristique. Duis
+                            cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                            commodo diam libero vitae erat.
+                        </p>
+                    </li>
+                    <li class="offerings__item">
+                        <h2 class="offerings-item__title">Fasest Delivery</h2>
+                        <p class="offerings-item__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse varius enim in eros.
+                        </p>
+                    </li>
+                    <li class="offerings__item">
+                        <h2 class="offerings-item__title">Easy to order</h2>
+                        <p class="offerings-item__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse varius enim in eros.
+                        </p>
+                    </li>
+                </ul>
+                <div class="offerings__wrap">
+                    <button class="offerings__btn">Order Now</button>
+                    <a href="" class="offerings__link">Read More
+                        <svg class="offerings__icon">
+                            <use href=""></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="favorites">
+            <div class="favorites__container">
+                <h2 class="favorites__title">
+                    <p class="favorites__text"></p>
+                    <picture class="favorites__list">
+                        <sourse class="favorites__item"></sourse>
+                        <sourse class="favorites__item"></sourse>
+                        <sourse class="favorites__item"></sourse>
+                        <img src="" alt="" class="favorites__img">
+                    </picture>
+                </h2>
+            </div>
+        </section>
+        <section class="customers">
+            <div class="customers__container">
+                <h2 class="customers__title">What our Customers Say</h2>
+                <p class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="customers__list">
+                    <li class="customers__item">
+                        <svg class="customers__icon">
+                            <use></use>
+                        </svg>
+                        <p class="customers-item__text">“The Best app I have used to order food in a while, so many
+                            options to choose from too, I would recommend to a freind,
+                            No questions asked”</p>
+                        <div class="customers__wrap"><img src="" alt="" class="customers__user">
+                            <h2 class="customers__subtitle"></h2>
+                            <p class="customers__subtext"></p>
+                        </div>
+                    </li>
+                    <li class="customers__item">
+                        <svg class="customers__icon">
+                            <use></use>
+                            <p class="customers-item__text">“The Best app I have used to order food in a while, so many
+                                options to choose from too, I would recommend to a freind,
+                                No questions asked”</p>
+                            <div class="customers__wrap"><img src="" alt="" class="customers__user">
+                                <h2 class="customers__subtitle"></h2>
+                                <p class="customers__subtext"></p>
+                            </div>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="subscribe__container">
+                <h2 class="subscribe__title"></h2>
+                <p class="subscribe__text"></p>
+                <input type="text" class="subscribe__input"><button class="subscribe_btn"></button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <a href="" class="header__logo">
+                <svg class="header__icon">
                     <use href=""></use>
                 </svg>
-            </button>
-            <nav class="burger__nav">
-                <ul class="burger-nav__list">
-                    <li class="burger-nav__item"><a class="burger-nav__link" href="">Home</a></li>
-                    <li class="burger-nav__item"><a class="burger-nav__link" href="">About</a></li>
-                    <li class="burger-nav__item"><a class="burger-nav__link" href="">Service</a></li>
-                    <li class="burger-nav__item"><a class="burger-nav__link" href="">Menu</a></li>
-                    <li class="burger-nav__item"><a class="burger-nav__link" href="">Contact</a></li>
-                </ul>
-            </nav>
+            </a>
+            <ul class="footer__list">
+                <li class="footer__item"><a href="" class="footer__link">Home</a></li>
+                <li class="footer__item"><a href="" class="footer__link">About</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Service</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Menu</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Contact</a></li>
+            </ul>
+            <div class="footer__wrap">
+                <h2 class="footer__title"></h2>
+                <form action="" class="footer__form"><input type="text" class="input"><button class="btn"></button><span
+                        class="span">By subscribing you agree to with our <a href="" class="span__link">Privacy
+                            Policy</a></span></form>
+            </div>
+            <ul class="footer__policy">
+                <li class="policy__item"><a href="" class="policy__link">Privacy Policy</a></li>
+                <li class="policy__item"><a href="" class="policy__link">Terms of Service</a></li>
+                <li class="policy__item"><a href="" class="policy__link">Cookies Settings</a></li>
+                <p class="footer__text">2022 FoodSta. All right reserved.</p>
+            </ul>
         </div>
-    </div>
-    <main></main>
+    </footer>
 </body>
 
 </html>
